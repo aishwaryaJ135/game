@@ -1,5 +1,22 @@
 .App {
   text-align: center;
+    margin: 10px;
+    display: grid;
+    border:solid black 3px;
+    grid-column-gap: 50px;
+    grid-template-areas:
+     ga ga ga ga ga ga ga ga ga ga ga ga
+     ga ga ga ga ga ga ga ga ga ga ga ga
+     ga ga ga ga ga ga ga ga ga ga ga ga
+     ga ga ga ga ga ga ga ga ga ga ga ga
+     pa pa pa pa pa pa pa pa pa pa pa pa
+     pa pa pa pa pa pa pa pa pa pa pa pa
+     pa pa pa pa pa pa pa pa pa pa pa pa
+     di di di di di di di di di di di di
+     di di di di di di di di di di di di
+     di di di di di di di di di di di di;
+    grid-gap: 5px;
+    background-color: #dce3f000; 
 }
 
 .App-logo {
@@ -10,7 +27,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 200vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,6 +35,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
 
 .App-link {
   color: #61dafb;

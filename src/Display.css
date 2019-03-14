@@ -1,0 +1,57 @@
+.dice{
+  padding: 10px;
+  grid-area: di;
+  font-size: 15px;
+}
+
+.path{
+  border: 2px solid black;
+  padding: 10px;
+  grid-area: pa;
+  font-size: 15px;
+}
+
+.game{
+  border: 2px solid black;
+  padding: 10px;
+  grid-area: ga;
+  font-size: 15px;
+}
+
+button {
+  background-color: rgba(22, 5, 63, 0.712); /* Green */
+  border: none;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  border-radius: 4px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.red{
+  background-color: rgba(190, 14, 14, 0.712); /* Green */
+}
+
+.blue{
+  background-color: rgba(25, 15, 167, 0.712); /* Green */
+}
+
+.box{
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+  min-width: 15px;
+  min-height: 20px;
+}
+
+#divD{
+  display: inline;
+  
+}
